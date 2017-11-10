@@ -1,0 +1,79 @@
+html {
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(255,242,242);
+}
+
+body {
+  margin-top: 5.25rem;
+}
+
+.row {
+  background-color: rgb(255,242,242);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgb(32,64,86);
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(32,64,86);
+}
+
+p {
+  color: rgb(74,74,74);
+}
+
+.card {
+  font-weight: 900;
+  font-size: 3rem;
+  color: rgb(255,255,255);
+  height: 12.5rem;
+  width: 22%;
+  background-color: rgb(35,64,86);
+  margin: 0 0.5rem 0.5rem 0;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 3000ms;
+  transition-timing-function: ease-out;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: hsla(309, 32%, 30%, 1);
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.timer h1 {
+  margin-right: 2rem;
+}
+
+#timerBox {
+  border: 2px solid black;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+#victoryBox {
+  display: none;
+  width: 200px;
+  height: 200px;
+  color: "white";
+  background-color: "black";
+}
